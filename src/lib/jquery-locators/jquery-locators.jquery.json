@@ -1,0 +1,17 @@
+{
+  "proposals": {
+    "jobDetail": ".up-loader-container:nth-child(2) h3",
+    "datePosted": "span[itemProp=\"datePosted\"]",
+    "descriptionFull": "div[class=\"description\"]",
+    "conditions": ".fe-ui-job-features li small",
+    "terms": ".fe-ui-job-features li strong",
+    "skillsAndExpertise": ".up-card-section.up-loader-container h4 + ul li",
+    "clientBudget": "div.text-right.text-muted",
+    "termsReviewFixedPrice": "div[data-test=\"terms-review-fixed-price\"] div",
+    "termsReviewHourly": "div[data-test=\"terms-review-hourly\"] div",
+    "paymentMethodVerified": "span[id=\"fe-payment-verified-text\"]",
+    "paymentMethodNotVerified": "div[id=\"payment-method-not-verified-trigger\"]",
+    "location": "div.fe-client-info:nth-child(1) span:nth-child(2)[data-v-e45b9d20]",
+    "history": "div.fe-client-info:nth-child(1) div[data-v-1c9983d3].mb-10"
+  }
+}

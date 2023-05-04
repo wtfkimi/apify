@@ -1,0 +1,24 @@
+{
+	"name": "apify-actor-upwk-jobs-login-pw",
+	"version": "0.0.1",
+	"description": "This is an example of an Apify actor.",
+	"dependencies": {
+		"apify": "^3.1.4",
+		"cheerio": "^1.0.0-rc.12",
+		"got-scraping": "^3.2.13",
+		"playwright": "^1.33.0",
+		"signal-exit": "^4.0.1"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.1",
+		"typescript": "^5.0.4"
+	},
+	"scripts": {
+		"build": "tsc",
+		"test": "ts-node src/tests/main-scrap.ts",
+		"start": "node build/tests/main-scrap.js"
+	},
+	"main": "build/tests/main-scrap.js",
+	"author": "viacheslav.bondariev",
+	"license": "ISC"
+}

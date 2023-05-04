@@ -1,0 +1,7 @@
+{
+	"name": "apify-actor-upwk-login-pw",
+	"version": "0.1",
+	"buildTag": "latest",
+	"env": {
+	}
+}
